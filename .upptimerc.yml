@@ -1,36 +1,96 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: linkwaveconnect # Your GitHub organization or username, where this repository lives
+repo: uptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
+# Sites da LinkWave
+  - name: LinkWave Connect
+    url: https://linkwaveconnect.com.br
+  - name: LinkWave Portal / Accounts
+    url: https://web.linkwaveconnect.com.br
+  - name: LinkWave Search
+    url: https://search.linkwaveconnect.com.br
+  - name: GitWave
+    url: https://git.linkwaveconnect.com.br
+  - name: LinkBin
+    url: https://bin.linkwaveconnect.com.br
+  - name: KanWave
+    url: https://kan.linkwaveconnect.com.br
+  - name: LinkWave Status
+    url: https://status.linkwaveconnect.com.br
+  - name: LinkWave Updates (This site / Este site)
+    url: https://updates.linkwaveconnect.com.br
+
+  # Hospedagem de DNS
+  - name: Nameserver 1
     check: "tcp-ping"
-    ipv6: true
+    url: $NAMESERVER1
+    port: 53
+  - name: Nameserver 2
+    check: "tcp-ping"
+    url: $NAMESERVER2
+    port: 53
+    
+  # Servidor para OSS
+  - name: Open Source Hosting Server
+    url: $OSSERVER
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: updates.linkwaveconnect.com.br
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://search.linkwaveconnect.com.br/assets/images/doogleLogo.png
+  name: LinkWave Updates
+  introTitle: "Status page for all LinkWave related websites"
+  introMessage: Página de status para todos os serviços da LinkWave
+  theme: night
   navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: LinkWave Status
+      href: https://status.linkwaveconnect.com.br
+    - title: Site principal
+      href: https://linkwaveconnect.com.br
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  footer: "All rights reserved | Todos os direitos reservados - LinkWave Connect LTDA - CNPJ: 53.108.042/0001-07"
+  activeIncidents: Active Incidents/Incidentes Ativos
+  allSystemsOperational: All systems are operational/Todos os sistemas estão operacionais
+  incidentReport: "Incident #$NUMBER report/Relatório do Incidente #$NUMBER →"
+  activeIncidentSummary: Opened at $DATE with $POSTS posts/Aberto em $DATE com $POSTS posts
+  incidentTitle: Incident $NUMBER Details/Detalhes do Incidente $NUMBER
+  incidentDetails: Incident Details/Detalhes do Incidente
+  incidentFixed: Fixed/Finalizado
+  incidentOngoing: Ongoing/Em andamento
+  incidentOpenedAt: Opened at/Aberto em
+  incidentClosedAt: Closed at/Fechado em
+  incidentViewOnGitHub: View and Subscribe on GitHub/Ver e Inscrever pelo Github
+  incidentCommentSummary: Posted at $DATE by $AUTHOR/Postado em $DATE por $AUTHOR
+  incidentBack: ← Back to all incidents/Todos os incidentes
+  pastIncidents: Past Incidents/Incidentes Passados
+  pastIncidentsResolved: Resolved in $MINUTES minutes with $POSTS posts/Solucionado em $MINUTES minutos com $POSTS posts
+  liveStatus: Live Status/Status ao vivo
+  overallUptime: "Overall uptime/Tempo de atividade geral: $UPTIME"
+  overallUptimeTitle: Overall uptime/Tempo de atividade geral
+  averageResponseTime: "Average response time/Tempo médio de resposta: $TIMEms"
+  averageResponseTimeTitle: Average response time/Tempo médio de resposta
+  sevelDayResponseTime: 7-day response time/Tempo de resposta em 7 dias
+  responseTimeMs: Response time/Tempo de resposta (ms)
+  up: Online
+  down: Offline
+  degraded: Degraded/Degradado
+  ms: ms
+  loading: Loading/Carregando
+  navGitHub: GitHub
+  errorTitle: An error occurred/Um erro ocorreu
+  errorIntro: An error occurred in trying to get the latest status details./Ocorreu um erro ao tentar obter os detalhes de status mais recentes.
+  errorText: You can try again in a few moments./Você pode tentar novamente em alguns instantes.
+  errorHome: Go to the homepage/Ir para a página inicial
+  pastScheduledMaintenance: Past Scheduled Maintenance/Manutenção Programada Anterior
+  scheduledMaintenance: Scheduled Maintenance/Manutençao Programada
+  scheduledMaintenanceSummaryStarted: Started at $DATE for $DURATION minutes/Começou em $DATE por $DURATION minutos
+  scheduledMaintenanceSummaryStarts: Starts at $DATE for $DURATION minutes/Começa em $DATE por $DURATION minutos
+  startedAt: Started at/Começou em
+  startsAt: Starts at/Começa em
+  duration: Duration/Duração
+  durationMin: $DURATION minutes/ $DURATION minutos
+  incidentCompleted: Completed/Completo
