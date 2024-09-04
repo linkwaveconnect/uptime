@@ -18,6 +18,8 @@ sites:
     url: https://kan.linkwaveconnect.com.br
   - name: LinkWave Status
     url: https://status.linkwaveconnect.com.br
+    expectedStatusCodes:
+      - 404
   - name: LinkWave Updates (This site / Este site)
     url: https://updates.linkwaveconnect.com.br
 
