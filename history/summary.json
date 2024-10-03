@@ -4,28 +4,30 @@
     "url": "https://linkwaveconnect.com.br",
     "icon": "https://icons.duckduckgo.com/ip3/linkwaveconnect.com.br.ico",
     "slug": "link-wave-connect",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.83%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 1724,
     "timeDay": 1045,
     "timeWeek": 1890,
     "timeMonth": 1724,
     "timeYear": 1724,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-10-03": 3
+    }
   },
   {
     "name": "LinkWave Portal / Accounts",
     "url": "https://web.linkwaveconnect.com.br",
     "icon": "https://icons.duckduckgo.com/ip3/web.linkwaveconnect.com.br.ico",
     "slug": "link-wave-portal-accounts",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 1657,
@@ -33,7 +35,9 @@
     "timeWeek": 1662,
     "timeMonth": 1657,
     "timeYear": 1657,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-10-03": 1
+    }
   },
   {
     "name": "LinkWave Search",
@@ -52,7 +56,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-10-03": 87,
+      "2024-10-03": 1262,
       "2024-10-02": 1440,
       "2024-10-01": 1440,
       "2024-09-30": 1440,
@@ -144,11 +148,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/status.linkwaveconnect.com.br.ico",
     "slug": "link-wave-status",
     "status": "up",
-    "uptime": "99.88%",
+    "uptime": "99.89%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.88%",
-    "uptimeYear": "99.88%",
+    "uptimeMonth": "99.89%",
+    "uptimeYear": "99.89%",
     "time": 243,
     "timeDay": 116,
     "timeWeek": 203,
