@@ -4,10 +4,10 @@
     "url": "https://linkwaveconnect.com.br",
     "icon": "https://icons.duckduckgo.com/ip3/linkwaveconnect.com.br.ico",
     "slug": "link-wave-connect",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 1967,
@@ -15,25 +15,29 @@
     "timeWeek": 2764,
     "timeMonth": 1967,
     "timeYear": 1967,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-10-04": 1
+    }
   },
   {
     "name": "LinkWave Portal / Accounts",
     "url": "https://web.linkwaveconnect.com.br",
     "icon": "https://icons.duckduckgo.com/ip3/web.linkwaveconnect.com.br.ico",
     "slug": "link-wave-portal-accounts",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1722,
-    "timeDay": 2784,
-    "timeWeek": 1852,
-    "timeMonth": 1722,
-    "timeYear": 1722,
-    "dailyMinutesDown": {}
+    "time": 2319,
+    "timeDay": 9599,
+    "timeWeek": 4227,
+    "timeMonth": 2319,
+    "timeYear": 2319,
+    "dailyMinutesDown": {
+      "2024-10-04": 0
+    }
   },
   {
     "name": "LinkWave Search",
@@ -52,7 +56,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-10-04": 87,
+      "2024-10-04": 132,
       "2024-10-03": 1440,
       "2024-10-02": 1440,
       "2024-10-01": 1440,
@@ -90,9 +94,9 @@
     "url": "https://git.linkwaveconnect.com.br",
     "icon": "https://icons.duckduckgo.com/ip3/git.linkwaveconnect.com.br.ico",
     "slug": "git-wave",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -101,16 +105,18 @@
     "timeWeek": 632,
     "timeMonth": 521,
     "timeYear": 521,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-10-04": 0
+    }
   },
   {
     "name": "LinkBin",
     "url": "https://bin.linkwaveconnect.com.br",
     "icon": "https://icons.duckduckgo.com/ip3/bin.linkwaveconnect.com.br.ico",
     "slug": "link-bin",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -119,16 +125,18 @@
     "timeWeek": 460,
     "timeMonth": 476,
     "timeYear": 476,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-10-04": 0
+    }
   },
   {
     "name": "KanWave",
     "url": "https://kan.linkwaveconnect.com.br",
     "icon": "https://icons.duckduckgo.com/ip3/kan.linkwaveconnect.com.br.ico",
     "slug": "kan-wave",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -137,7 +145,9 @@
     "timeWeek": 705,
     "timeMonth": 653,
     "timeYear": 653,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-10-04": 0
+    }
   },
   {
     "name": "LinkWave Status",
@@ -218,9 +228,9 @@
     "url": "$OSSERVER",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "open-source-hosting-server",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -229,6 +239,8 @@
     "timeWeek": 1206,
     "timeMonth": 596,
     "timeYear": 596,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-10-04": 0
+    }
   }
 ]
